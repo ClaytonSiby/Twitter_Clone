@@ -35,6 +35,8 @@ gem 'gravatar_image_tag', '~> 1.2'
 
 gem 'devise', '~> 4.7', '>= 4.7.2'
 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
